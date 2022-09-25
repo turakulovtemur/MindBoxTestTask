@@ -19,16 +19,16 @@ create table ProductCategory
 )
 
 Insert into dbo.Product
-values(1, '—ахар'),
-(2, 'яблоко'),
-(3, '–ис очищенный'),
-(4, '–ис не очищенный');
+values(1, 'sugar'),
+(2, 'apple'),
+(3, 'rice peeled'),
+(4, 'brown rice');
 
 Insert into dbo.Category("Id","Name")
-values(1, '—ахар'),
-(2, 'яблоко красное'),
-(3, 'яблоко зеленое'),
-(4, '–ис');
+values(1, 'sugar'),
+(2, 'red apple'),
+(3, 'green apple'),
+(4, 'rice');
 
 Insert into dbo.ProductCategory
 values(1,1, 1),
